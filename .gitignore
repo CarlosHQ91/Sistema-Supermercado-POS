@@ -1,0 +1,34 @@
+# Archivos de entorno y configuración sensible opcional
+# config/database.php
+
+# Backups y volcados de base de datos
+database/backup/*.backup
+database/backup/*.sql
+*.backup
+*.dump
+*.sql.gz
+
+# Logs y temporales
+*.log
+scratch/
+tmp/
+temp/
+
+# Dependencias y paquetes
+vendor/
+node_modules/
+
+# Archivos de Sistema Operativo y Editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.antigravity/
+
+# Certificados y llaves DTE (sensibles)
+*.p12
+*.pem
+*.key
